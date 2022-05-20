@@ -3,7 +3,7 @@
   --dark-bg: #170027;
   --button-bg: #9e6dc2;
   --white: #fff;
-  --light-purple: #fbf6;
+  --light-purple: #9E6DC2;
   --green: #4fff4b;
 }
 
@@ -106,6 +106,7 @@ button:hover {
   text-align: left;
   color: var(--light-purple);
   font-weight: 700;
+  
 }
 
 .content-header p {
@@ -116,6 +117,8 @@ button:hover {
   color: var(--white);
   padding-top: 30px;
   font-weight: 400;
+  text-align: justify;
+  margin-right: 90px;
 }
 
 .content-header h4 {
@@ -125,4 +128,15 @@ button:hover {
   line-height: 27px;
   color: var(--light-purple);
   padding-top: 30px;
+}
+
+.veja-mais {
+  display: flex;
+}
+
+.veja-mais img {
+  padding-top: 33px;
+  padding-left: 8px;
+  align-items: center;
+  max-width: 24px;
 }
