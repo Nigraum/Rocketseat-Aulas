@@ -127,7 +127,7 @@ button:hover {
   font-size: 18px;
   line-height: 27px;
   color: var(--light-purple);
-  padding-top: 30px;
+  padding-top: 24px;
 }
 
 .veja-mais {
@@ -135,7 +135,7 @@ button:hover {
 }
 
 .veja-mais img {
-  padding-top: 33px;
+  padding-top: 27px;
   padding-left: 8px;
   align-items: center;
   max-width: 24px;
