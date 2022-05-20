@@ -3,7 +3,7 @@
   --dark-bg: #170027;
   --button-bg: #9e6dc2;
   --white: #fff;
-  --light-purple: #fbf6ff;
+  --light-purple: #fbf6;
   --green: #4fff4b;
 }
 
@@ -46,6 +46,10 @@
 .nav-item a {
   text-decoration: none;
   color: #fff;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .nav-item a:hover {
@@ -62,6 +66,13 @@ input {
   width: 230px;
   height: 44px;
   color: #fff;
+}
+
+.search input::placeholder {
+  font-family: 'Roboto';
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 button {
@@ -84,4 +95,34 @@ button:hover {
 .content-header {
   display: flex;
   flex-direction: row;
+  
+}
+
+.content-header h1 {
+  font-family: 'Poppins';
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: left;
+  color: var(--light-purple);
+  font-weight: 700;
+}
+
+.content-header p {
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+  color: var(--white);
+  padding-top: 30px;
+  font-weight: 400;
+}
+
+.content-header h4 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--light-purple);
+  padding-top: 30px;
 }
