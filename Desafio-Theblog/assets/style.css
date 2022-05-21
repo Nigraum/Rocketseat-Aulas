@@ -140,3 +140,85 @@ button:hover {
   align-items: center;
   max-width: 24px;
 }
+.green {
+  height: 6px;
+  background-color: var(--green);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+figcaption {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  margin-top:10px;
+
+}
+
+.container h2 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--purple-bg);
+  text-align: justify;
+  margin-top: 15.97px;
+}
+
+.container p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  margin-top:15.97px ;
+}
+
+.text {
+  margin-left: 130px;
+}
+
+.text h2 {
+  margin-top: 8px;
+}
+
+.text p {
+  margin-top: 8px;
+}
+
+.linha {
+  background-color:#F2E7FA ;
+  height: 1px;
+  margin-top: 23.59px;
+  margin-bottom: 23.96px;
+}
+
+
+.end {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.end h2 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--purple-bg);
+  margin-top: 8px;
+  display: flex;
+}
+
+.end p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top:8px ;
+}
